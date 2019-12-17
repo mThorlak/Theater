@@ -7,9 +7,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="118c3d48-0961-467a-9514-1a815c2b0be6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/theater_servlet/servletExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/vue/vueExample1.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/theater/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/theater/Hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theater.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Theater.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Theater_ejb_exploded/theater/HelloBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Theater_ejb_exploded/theater/HelloRemote.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Theater_war_exploded/WEB-INF/classes/theater/HelloBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Theater_war_exploded/WEB-INF/classes/theater/HelloRemote.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Theater_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Theater_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Theater_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Theater_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Theater/theater/HelloBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Theater/theater/HelloRemote.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theater/Hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theater/HelloBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +35,7 @@
       <list>
         <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -44,6 +59,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/WEB-INF/vue" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="theater" />
     </key>
@@ -138,7 +156,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576578149713</updated>
-      <workItem from="1576578153188" duration="4349000" />
+      <workItem from="1576578153188" duration="8871000" />
     </task>
     <servers />
   </component>
@@ -174,30 +192,30 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="588" y="214" width="800" height="684" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576579776717" />
-    <state x="726" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576578746500">
+    <state x="726" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576592848650">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="726" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576578746500" />
+    <state x="726" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576592848650" />
     <state x="771" y="299" width="424" height="520" key="FileChooserDialogImpl" timestamp="1576579161331">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="771" y="299" width="424" height="520" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576579161331" />
-    <state width="1244" height="275" key="GridCell.Tab.0.bottom" timestamp="1576582204160">
+    <state width="1244" height="275" key="GridCell.Tab.0.bottom" timestamp="1576593666111">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1244" height="275" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576582204160" />
-    <state width="1244" height="275" key="GridCell.Tab.0.center" timestamp="1576582204160">
+    <state width="1244" height="275" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576593666111" />
+    <state width="1244" height="275" key="GridCell.Tab.0.center" timestamp="1576593666111">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1244" height="275" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576582204160" />
-    <state width="1244" height="275" key="GridCell.Tab.0.left" timestamp="1576582204160">
+    <state width="1244" height="275" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576593666111" />
+    <state width="1244" height="275" key="GridCell.Tab.0.left" timestamp="1576593666111">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1244" height="275" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576582204160" />
-    <state width="1244" height="275" key="GridCell.Tab.0.right" timestamp="1576582204160">
+    <state width="1244" height="275" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576593666111" />
+    <state width="1244" height="275" key="GridCell.Tab.0.right" timestamp="1576593666111">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1244" height="275" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576582204160" />
+    <state width="1244" height="275" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576593666111" />
     <state x="476" y="131" width="1024" height="852" key="SettingsEditor" timestamp="1576578557004">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -206,5 +224,9 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576578154319" />
+    <state x="638" y="157" width="710" height="792" key="find.popup" timestamp="1576590507454">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="638" y="157" width="710" height="792" key="find.popup/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576590507454" />
   </component>
 </project>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Theater:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="118c3d48-0961-467a-9514-1a815c2b0be6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="AnnotationType" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1V6eos6cJ99mchdJl22yshM9IMz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="theater" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="JBoss" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 17.0.1.Final" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Theater:war exploded">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="SERVER" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="DOMAIN" value="false" />
+        <option name="SERVER_GROUP" />
+        <option name="USERNAME" value="" />
+        <option name="CREDENTIAL_ALIAS" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="JBoss" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="44849" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Theater:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="JBoss Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="JBoss Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="118c3d48-0961-467a-9514-1a815c2b0be6" name="Default Changelist" comment="" />
+      <created>1576578149713</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576578149713</updated>
+      <workItem from="1576578153188" duration="1879000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="683" y="181" width="610" height="751" key="#JBoss" timestamp="1576578848298">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="683" y="181" width="610" height="751" key="#JBoss/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576578848298" />
+    <state x="329" y="396" width="800" height="684" key="#JBoss_Server" timestamp="1576579164871">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="329" y="396" width="800" height="684" key="#JBoss_Server/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576579164871" />
+    <state x="588" y="214" width="847" height="684" key="#Project_Structure" timestamp="1576578246163">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="214" width="847" height="684" key="#Project_Structure/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576578246163" />
+    <state x="683" y="181" width="610" height="751" key="#Unnamed" timestamp="1576578677355">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="683" y="181" width="610" height="751" key="#Unnamed/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576578677355" />
+    <state x="451" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576579781595">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="451" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576579781595" />
+    <state x="801" y="265" width="374" height="582" key="#com.intellij.ide.util.MemberChooser" timestamp="1576578392173">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="801" y="265" width="374" height="582" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576578392173" />
+    <state x="588" y="214" width="800" height="684" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1576579776717">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="214" width="800" height="684" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576579776717" />
+    <state x="726" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576578746500">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="726" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576578746500" />
+    <state x="771" y="299" width="424" height="520" key="FileChooserDialogImpl" timestamp="1576579161331">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="771" y="299" width="424" height="520" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576579161331" />
+    <state width="1244" height="275" key="GridCell.Tab.0.bottom" timestamp="1576579878670">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1244" height="275" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576579878670" />
+    <state width="1244" height="275" key="GridCell.Tab.0.center" timestamp="1576579878670">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1244" height="275" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576579878670" />
+    <state width="1244" height="275" key="GridCell.Tab.0.left" timestamp="1576579878670">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1244" height="275" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576579878670" />
+    <state width="1244" height="275" key="GridCell.Tab.0.right" timestamp="1576579878670">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1244" height="275" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576579878670" />
+    <state x="476" y="131" width="1024" height="852" key="SettingsEditor" timestamp="1576578557004">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="476" y="131" width="1024" height="852" key="SettingsEditor/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576578557004" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1576578154319">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576578154319" />
+  </component>
+</project>

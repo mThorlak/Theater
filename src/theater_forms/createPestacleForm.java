@@ -20,7 +20,7 @@ public final class createPestacleForm {
         return result;
     }
 
-    public Map<String, String> getErreurs() {
+    public Map<String, String> getError() {
         return error;
     }
 
@@ -43,10 +43,10 @@ public final class createPestacleForm {
             validateString(category);
         } catch (Exception e) {
             setError(FIELD_CATEGORY, e.getMessage());
-            System.out.println(getErreurs());
+            System.out.println(getError());
             System.out.println(error.get("name"));
         }
-        pestacle.setName(category);
+        pestacle.setCategory(category);
 
 /*
         try {
@@ -66,17 +66,12 @@ public final class createPestacleForm {
         return pestacle;
     }
 
-    private void validateString(String name) throws Exception {
-        if (name != null) {
-            if (!name.matches("([^.@]+)(\\.[^.@]+)*@([^.@]+\\.)+([^.@]+)")) {
-                throw new Exception("Merci de saisir un nom de pestacle valide.");
-            }
-        } else {
+    private void validateString(String value) throws Exception {
+        if (value == null)
             throw new Exception("Le champ ne ne peut pas être vide.");
-        }
     }
 
-    private void validateSale(Integer place) throws Exception {
+    private void validateSalle(Integer place) throws Exception {
         if (place == 0) {
             throw new Exception("Le specatcle doit au moins pouvoir accueillir un spectateur.");
         }

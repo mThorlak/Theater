@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 public class createPestacle extends HttpServlet {
     public static final String ATTRIBUT_PESTACLE = "pestacle";
     public static final String ATTRIBUT_FORM_PESTACLE = "formPestacle";
-    public static final String VUE = "/WEB-INF/vue/form.jsp";
+    public static final String VUE = "/WEB-INF/vue/formCreatePestacle.jsp";
 
     public void doGet( HttpServletRequest request, HttpServletResponse response ) throws ServletException, IOException{
         /* Affichage de la page d'inscription */

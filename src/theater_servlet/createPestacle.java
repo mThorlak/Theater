@@ -33,6 +33,5 @@ public class createPestacle extends HttpServlet {
         request.setAttribute( ATTRIBUT_PESTACLE, pestacle );
 
         this.getServletContext().getRequestDispatcher( VUE ).forward( request, response );
-        System.out.println("We are here");
     }
 }

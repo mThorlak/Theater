@@ -43,8 +43,6 @@ public final class createPestacleForm {
             validateString(category);
         } catch (Exception e) {
             setError(FIELD_CATEGORY, e.getMessage());
-            System.out.println(getError());
-            System.out.println(error.get("name"));
         }
         pestacle.setCategory(category);
 

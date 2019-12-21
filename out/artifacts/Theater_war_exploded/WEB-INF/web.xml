@@ -17,6 +17,10 @@
         <servlet-class>theater_servlet.restrictiveAccess</servlet-class>
     </servlet>
     <servlet>
+        <servlet-name>createRoomManager</servlet-name>
+        <servlet-class>theater_servlet.roomManagerServlet</servlet-class>
+    </servlet>
+    <servlet>
         <servlet-name>connectRoomManager</servlet-name>
         <servlet-class>theater_servlet.connectRoomManager</servlet-class>
     </servlet>
@@ -34,6 +38,10 @@
     <servlet-mapping>
         <servlet-name>restrictiveAccess</servlet-name>
         <url-pattern>/restrictiveAccess</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>createRoomManager</servlet-name>
+        <url-pattern>/createRoomManager</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>connectRoomManager</servlet-name>

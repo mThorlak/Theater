@@ -6,10 +6,10 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.HashMap;
 import java.util.Map;
 
-public final class createRoomManager {
+public final class createRoomManagerForm {
 
-    private static final String FIELD_ID = "identifiant";
-    private static final String FIELD_PASSWORD = "mot de passe";
+    private static final String FIELD_ID = "id";
+    private static final String FIELD_PASSWORD = "password";
 
     private String result;
     private Map<String, String> error = new HashMap<String, String>();
@@ -24,7 +24,9 @@ public final class createRoomManager {
 
     public roomManager create(HttpServletRequest request) {
         String id = getValueField(request, FIELD_ID);
+        System.out.println(id);
         String password = getValueField(request, FIELD_PASSWORD);
+        System.out.println(password);
 
         roomManager roomManager = new roomManager();
 

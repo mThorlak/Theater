@@ -1,17 +1,15 @@
 package theater_forms;
 
-import theater_beans.pestacle;
+import theater_beans.roomManager;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.HashMap;
 import java.util.Map;
-import javax.servlet.http.HttpServletRequest;
 
-public final class createPestacleForm {
+public final class createRoomManagerForm {
 
-    private static final String FIELD_NAME = "name";
-    private static final String FIELD_CATEGORY = "category";
-    private static final String FIELD_DATE = "date";
-    private static final String FIELD_PLACE = "place";
+    private static final String FIELD_ID = "id";
+    private static final String FIELD_PASSWORD = "password";
 
     private String result;
     private Map<String, String> error = new HashMap<String, String>();
@@ -24,36 +22,27 @@ public final class createPestacleForm {
         return error;
     }
 
-    public pestacle create(HttpServletRequest request) {
-        String name = getValueField(request, FIELD_NAME);
-        String category = getValueField(request, FIELD_CATEGORY);
-        String date = getValueField(request, FIELD_DATE);
-        String place = getValueField(request, FIELD_PLACE);
+    public roomManager create(HttpServletRequest request) {
+        String id = getValueField(request, FIELD_ID);
+        System.out.println(id);
+        String password = getValueField(request, FIELD_PASSWORD);
+        System.out.println(password);
 
-        pestacle pestacle = new pestacle();
+        roomManager roomManager = new roomManager();
 
         try {
-            validateString(name);
+            validateString(id);
         } catch (Exception e) {
-            setError(FIELD_NAME, e.getMessage());
+            setError(FIELD_ID, e.getMessage());
         }
-        pestacle.setName(name);
+        roomManager.setId(id);
 
         try {
-            validateString(category);
+            validateString(password);
         } catch (Exception e) {
-            setError(FIELD_CATEGORY, e.getMessage());
+            setError(FIELD_PASSWORD, e.getMessage());
         }
-        pestacle.setCategory(category);
-
-/*
-        try {
-            validateSale( place );
-        } catch ( Exception e ) {
-            setErreur( FIELD_PLACE, e.getMessage() );
-        }
-        pestacle.setPlace( place );
-*/
+        roomManager.setPassword(password);
 
         if (error.isEmpty()) {
             result = "Succès de la création du pestacle.";
@@ -61,18 +50,12 @@ public final class createPestacleForm {
             result = "Échec de la création du pestacle.";
         }
 
-        return pestacle;
+        return roomManager;
     }
 
     private void validateString(String value) throws Exception {
         if (value == null)
             throw new Exception("Le champ ne ne peut pas être vide.");
-    }
-
-    private void validateSalle(Integer place) throws Exception {
-        if (place == 0) {
-            throw new Exception("Le specatcle doit au moins pouvoir accueillir un spectateur.");
-        }
     }
 
     /*

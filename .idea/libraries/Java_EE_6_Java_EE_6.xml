@@ -10,6 +10,8 @@
       <root url="jar://$PROJECT_DIR$/lib/javax.servlet.jsp.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/javax.persistence.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/sources_jee/wildfly-17.0.1.Final/bin/client/jboss-client.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/sources_jee/mysql-connector-java-8.0.17/mysql-connector-java-8.0.17.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

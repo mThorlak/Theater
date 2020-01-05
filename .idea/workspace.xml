@@ -7,17 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="118c3d48-0961-467a-9514-1a815c2b0be6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bdd/testJdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/theater_servlet/testJdbcServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/vue/test_jdbc.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Theater_ejb_exploded/theater_forms/createPestacleForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Theater_ejb_exploded/theater_forms/createPestacleForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Theater_ejb_exploded/theater_servlet/createPestacle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Theater_ejb_exploded/theater_servlet/createPestacle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Theater_war_exploded/WEB-INF/classes/theater_forms/createPestacleForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Theater_war_exploded/WEB-INF/classes/theater_forms/createPestacleForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Theater_war_exploded/WEB-INF/classes/theater_servlet/createPestacle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Theater_war_exploded/WEB-INF/classes/theater_servlet/createPestacle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Theater_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Theater_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Theater/theater_forms/createPestacleForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Theater/theater_forms/createPestacleForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Theater/theater_servlet/createPestacle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Theater/theater_servlet/createPestacle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/theater_forms/createRoomManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/theater_forms/createRoomManagerForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/theater_servlet/roomManagerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/theater_servlet/roomManagerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/vue/formCreateRoomManager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/vue/formCreateRoomManager.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,13 +24,50 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="theater@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="theater@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="theater@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="theater: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="theater@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="theater: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="roomManager: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
         <option value="CSS File" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -41,6 +77,20 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/web/WEB-INF/vue/formCreatePestacle.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="ProjectId" id="1V6eos6cJ99mchdJl22yshM9IMz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -49,24 +99,29 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql&#10;postgresql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last.edited.regexp" value="Sampl ! zeddz" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/vue" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/sources_jee/mysql-connector-java-8.0.17/mysql-connector-java-8.0.17.jar" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/web" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/web/WEB-INF/vue" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="theater" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/vue" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -74,11 +129,13 @@
       <recent name="theater_forms" />
       <recent name="theater_beans" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="theater" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/web/WEB-INF/vue" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JBoss Server.JBoss">
     <configuration name="JBoss" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 17.0.1.Final" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -135,6 +192,84 @@
         </option>
       </method>
     </configuration>
+    <configuration name="mysql-connector-java-8.0.17.jar (1)" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$USER_HOME$/Documents/sources_jee/mysql-connector-java-8.0.17/mysql-connector-java-8.0.17.jar!/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mysql-connector-java-8.0.17.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/lib/mysql-connector-java-8.0.17.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TomcatServer" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.50" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Theater_war_exploded/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Theater:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Theater_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Theater" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="41377" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Theater:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JAR Application.mysql-connector-java-8.0.17.jar" />
+      <item itemvalue="JAR Application.mysql-connector-java-8.0.17.jar (1)" />
+      <item itemvalue="JBoss Server.JBoss" />
+      <item itemvalue="Tomcat Server.TomcatServer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR Application.mysql-connector-java-8.0.17.jar (1)" />
+        <item itemvalue="JAR Application.mysql-connector-java-8.0.17.jar" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -148,8 +283,7 @@
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="JBoss Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -173,7 +307,14 @@
       <workItem from="1576674396050" duration="368000" />
       <workItem from="1576699871260" duration="9019000" />
       <workItem from="1576852249183" duration="2187000" />
-      <workItem from="1576937281682" duration="1570000" />
+      <workItem from="1576937281682" duration="14648000" />
+      <workItem from="1577203692395" duration="673000" />
+      <workItem from="1577910261650" duration="774000" />
+      <workItem from="1577911057124" duration="6567000" />
+      <workItem from="1578078178674" duration="1243000" />
+      <workItem from="1578160826477" duration="375000" />
+      <workItem from="1578161659439" duration="3706000" />
+      <workItem from="1578218020999" duration="99000" />
     </task>
     <servers />
   </component>
@@ -189,18 +330,28 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="329" y="396" width="800" height="684" key="#JBoss_Server/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576579164871" />
-    <state x="588" y="214" width="847" height="684" key="#Project_Structure" timestamp="1576578246163">
+    <state x="588" y="214" width="800" height="684" key="#Project_Structure" timestamp="1578001676533">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="588" y="214" width="847" height="684" key="#Project_Structure/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576578246163" />
+    <state x="588" y="214" width="800" height="684" key="#Project_Structure/67.27.1853.1053@67.27.1853.1053" timestamp="1578001676533" />
+    <state x="588" y="215" width="800" height="684" key="#SQL_Dialects" timestamp="1576950637851">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="215" width="800" height="684" key="#SQL_Dialects/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1576950637851" />
+    <state x="583" y="218" width="800" height="684" key="#Tomcat_Server" timestamp="1578161740244">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="583" y="218" width="800" height="684" key="#Tomcat_Server/67.27.1853.1053@67.27.1853.1053" timestamp="1578161740244" />
     <state x="683" y="181" width="610" height="751" key="#Unnamed" timestamp="1576578677355">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="683" y="181" width="610" height="751" key="#Unnamed/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576578677355" />
-    <state x="451" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576581061617">
+    <state x="1014" y="140" width="906" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578161977252">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="451" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576581061617" />
+    <state x="1014" y="140" width="906" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1578161977252" />
     <state x="801" y="265" width="374" height="582" key="#com.intellij.ide.util.MemberChooser" timestamp="1576578392173">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -209,52 +360,121 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="588" y="214" width="800" height="684" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576579776717" />
+    <state x="352" y="455" width="444" height="189" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1578000097326">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="352" y="455" width="444" height="189" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1578000097326" />
+    <state x="676" y="290" width="624" height="533" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1577911027508">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="676" y="290" width="624" height="533" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1577911027508" />
     <state x="726" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576592848650">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="726" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576592848650" />
-    <state x="771" y="299" width="424" height="520" key="FileChooserDialogImpl" timestamp="1576579161331">
+    <state x="667" y="221" width="642" height="672" key="#mysql-connector-java-8.0.17.jar_(1)" timestamp="1578001645423">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="667" y="221" width="642" height="672" key="#mysql-connector-java-8.0.17.jar_(1)/67.27.1853.1053@67.27.1853.1053" timestamp="1578001645423" />
+    <state x="312" y="251" width="735" height="498" key="FileChooserDialogImpl" timestamp="1578161737579">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="771" y="299" width="424" height="520" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576579161331" />
-    <state width="1244" height="266" key="GridCell.Tab.0.bottom" timestamp="1576938849011">
+    <state x="312" y="251" width="735" height="548" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1577037141761" />
+    <state x="312" y="251" width="735" height="498" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1578161737579" />
+    <state width="596" height="199" key="GridCell.Tab.0.bottom" timestamp="1578176424644">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="843" height="257" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1576674763697" />
     <state width="1244" height="275" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576593669897" />
-    <state width="1244" height="266" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1576938849011" />
-    <state width="1244" height="266" key="GridCell.Tab.0.center" timestamp="1576938849011">
+    <state width="1244" height="199" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1577049991885" />
+    <state width="596" height="199" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1578176424644" />
+    <state width="596" height="199" key="GridCell.Tab.0.center" timestamp="1578176424643">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="843" height="257" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1576674763696" />
     <state width="1244" height="275" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576593669897" />
-    <state width="1244" height="266" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1576938849011" />
-    <state width="1244" height="266" key="GridCell.Tab.0.left" timestamp="1576938849011">
+    <state width="1244" height="199" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1577049991885" />
+    <state width="596" height="199" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1578176424643" />
+    <state width="596" height="199" key="GridCell.Tab.0.left" timestamp="1578176424642">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="843" height="257" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1576674763695" />
     <state width="1244" height="275" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576593669897" />
-    <state width="1244" height="266" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1576938849011" />
-    <state width="1244" height="266" key="GridCell.Tab.0.right" timestamp="1576938849011">
+    <state width="1244" height="199" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1577049991885" />
+    <state width="596" height="199" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1578176424642" />
+    <state width="596" height="199" key="GridCell.Tab.0.right" timestamp="1578176424643">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="843" height="257" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1576674763696" />
     <state width="1244" height="275" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576593669897" />
-    <state width="1244" height="266" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1576938849011" />
-    <state x="476" y="131" width="1024" height="852" key="SettingsEditor" timestamp="1576578557004">
+    <state width="1244" height="199" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1577049991885" />
+    <state width="596" height="199" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1578176424643" />
+    <state width="1244" height="199" key="GridCell.Tab.1.bottom" timestamp="1578176424630">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1244" height="199" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1578176424630" />
+    <state width="1244" height="199" key="GridCell.Tab.1.center" timestamp="1578176424629">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1244" height="199" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1578176424629" />
+    <state width="1244" height="199" key="GridCell.Tab.1.left" timestamp="1578176424628">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1244" height="199" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1578176424628" />
+    <state width="1244" height="199" key="GridCell.Tab.1.right" timestamp="1578176424629">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1244" height="199" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1578176424629" />
+    <state width="1244" height="199" key="GridCell.Tab.2.bottom" timestamp="1578176424632">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1244" height="199" key="GridCell.Tab.2.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1578176424632" />
+    <state width="1244" height="199" key="GridCell.Tab.2.center" timestamp="1578176424631">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1244" height="199" key="GridCell.Tab.2.center/67.27.1853.1053@67.27.1853.1053" timestamp="1578176424631" />
+    <state width="1244" height="199" key="GridCell.Tab.2.left" timestamp="1578176424630">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1244" height="199" key="GridCell.Tab.2.left/67.27.1853.1053@67.27.1853.1053" timestamp="1578176424630" />
+    <state width="1244" height="199" key="GridCell.Tab.2.right" timestamp="1578176424631">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1244" height="199" key="GridCell.Tab.2.right/67.27.1853.1053@67.27.1853.1053" timestamp="1578176424631" />
+    <state width="263" height="500" key="HiddenNamespacesPopup" timestamp="1577910721064">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="263" height="500" key="HiddenNamespacesPopup/67.27.1853.1053@67.27.1853.1053" timestamp="1577910721064" />
+    <state x="67" y="120" width="1024" height="852" key="SettingsEditor" timestamp="1578161904306">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="476" y="131" width="1024" height="852" key="SettingsEditor/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576578557004" />
+    <state x="67" y="120" width="1024" height="852" key="SettingsEditor/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1577037570607" />
+    <state x="67" y="120" width="1024" height="852" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1578161904306" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1576614304610">
       <screen x="1920" y="0" width="1280" height="1024" />
     </state>
     <state width="498" height="446" key="SwitcherDM/67.27.1853.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1576614304610" />
-    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1576937282792">
+    <state x="576" y="211" width="824" height="691" key="com.intellij.database.dbimport.ImportDialog" timestamp="1577998587063">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="576" y="211" width="824" height="691" key="com.intellij.database.dbimport.ImportDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1577998587063" />
+    <state x="845" y="319" width="287" height="475" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1577910692117">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="845" y="319" width="287" height="475" key="com.intellij.database.view.ui.DbObjectDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1577910692117" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1578218029372">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="2322" y="343" key="com.intellij.ide.util.TipDialog/67.27.1853.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1576674396945" />
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576578154319" />
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1576937282792" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1578218029372" />
+    <state x="251" y="442" width="646" height="215" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1578001201212">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="251" y="442" width="646" height="215" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/67.27.1853.1053@67.27.1853.1053" timestamp="1578001201212" />
     <state x="3066" y="120" width="1458" height="715" key="dock-window-1" timestamp="1576938021593">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -268,12 +488,18 @@
       <screen x="1920" y="0" width="1280" height="1024" />
     </state>
     <state x="2613" y="294" width="554" height="507" key="extract.method.dialog/67.27.1853.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1576618918016" />
-    <state x="637" y="157" width="1028" height="793" key="find.popup" timestamp="1576860065220">
+    <state x="637" y="157" width="1084" height="793" key="find.popup" timestamp="1578000950476">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="2314" y="126" width="710" height="771" key="find.popup/67.27.1853.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1576618205289" />
     <state x="638" y="157" width="710" height="792" key="find.popup/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1576590507454" />
-    <state x="637" y="157" width="1028" height="793" key="find.popup/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1576860065220" />
+    <state x="637" y="157" width="1028" height="793" key="find.popup/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1576954946348" />
+    <state x="637" y="157" width="1084" height="793" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1578000950476" />
+    <state x="302" y="118" width="1372" height="878" key="new project wizard" timestamp="1578162224221">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="302" y="118" width="1372" height="878" key="new project wizard/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1576954050512" />
+    <state x="302" y="118" width="1372" height="878" key="new project wizard/67.27.1853.1053@67.27.1853.1053" timestamp="1578162224221" />
     <state x="657" y="252" key="run.anything.popup" timestamp="1576937968774">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

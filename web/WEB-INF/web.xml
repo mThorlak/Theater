@@ -24,6 +24,10 @@
         <servlet-name>connectRoomManager</servlet-name>
         <servlet-class>theater_servlet.connectRoomManager</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>TestJDBC</servlet-name>
+        <servlet-class>theater_servlet.testJdbcServlet</servlet-class>
+    </servlet>
 
 
     <!-- Sevlet mapping (route) -->
@@ -46,5 +50,9 @@
     <servlet-mapping>
         <servlet-name>connectRoomManager</servlet-name>
         <url-pattern>/connexionRoomManager</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TestJDBC</servlet-name>
+        <url-pattern>/testjdbc</url-pattern>
     </servlet-mapping>
 </web-app>
